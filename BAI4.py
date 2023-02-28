@@ -5,7 +5,7 @@ def khoitao(a):
     listt = []
     for i in range(a):
         while True:
-            x = random.randint(0, 10)
+            x = random.randint(0, 100)
             if x not in listt:
                 listt.append(x)
                 break
