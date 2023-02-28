@@ -17,13 +17,13 @@ while True:
                     lst.append(k)
                     j += 1
                 except ValueError:
-                    print("Dãy số chỉ gồm số nguyên")
+                    print("Dãy chỉ gồm số nguyên")
             if ktrathutu(lst):
                 print(f"Dãy số thỏa mãn yêu cầu: {lst}")
                 break
             else:
                 print(f"Dãy số không thỏa mãn yêu cầu, xin vui lòng nhập lại")
         else:
-            print("Dãy số phải gồm nhiều hơn 1 phần tử")
+            print("Dãy phải chứa nhiều hơn 1 phần tử")
     except ValueError:
         print("Số phần tử phải là số nguyên dương")
