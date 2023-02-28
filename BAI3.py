@@ -29,8 +29,11 @@ while True:
         if chucnang == 1:
             try:
                 M, N = map(int, input("Nhập số hàng và số cột của ma trận, cách nhau bởi dấu cách: ").split())
-                matrix = khoitao(M, N) if M and N > 0 else "Số hàng và số cột phải là số nguyên dương, vui lòng nhập lại"
-                print(f"Ma trận ngẫu nhiên {M}x{N}: {matrix}")
+                if M and N > 0:
+                    matrix = khoitao(M, N)
+                    print(f"Ma trận ngẫu nhiên {M}x{N}: {matrix}")
+                else:
+                    print("Số hàng và số cột phải là số nguyên dương, vui lòng nhập lại")
             except ValueError:
                 print("Số hàng và số cột phải là số nguyên dương, vui lòng nhập lại")
         elif chucnang == 2:
