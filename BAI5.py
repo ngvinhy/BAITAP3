@@ -11,12 +11,12 @@ while True:
         n = int(input("Nhập số phần tử của dãy số: "))
         if n > 1:
             lst = []
-            i = 0
-            while i < n:
+            j = 0
+            while j < n:
                 try:
                     k = int(input("Nhập các giá trị của dãy: "))
                     lst.append(k)
-                    i += 1
+                    j += 1
                 except ValueError:
                     print("Dãy số chỉ gồm số nguyên")
             if ktrathutu(lst):
