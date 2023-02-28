@@ -1,9 +1,8 @@
 def ktrathutu(listt):
-    for i in range(len(listt)):
-        if listt[i] <= listt[i+1]:
-            return True
-        else:
+    for i in range(len(listt)-1):
+        if listt[i] > listt[i+1]:
             return False
+    return True
 
 
 while True:
