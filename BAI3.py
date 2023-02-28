@@ -18,12 +18,12 @@ def lonnhat(matrx):
 
 
 matrix = []
-while True:
-    print("""1. Khởi tạo ma trận
+print("""1. Khởi tạo ma trận
 2. Truy xuất dòng
 3. Truy xuất cột
 4. Giá trị MAX trong ma trận
 5. Thoát chương trình""")
+while True:
     try:
         chucnang = int(input("Chọn chức năng muốn sử dụng: "))
         if chucnang == 1:

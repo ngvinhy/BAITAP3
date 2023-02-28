@@ -14,11 +14,11 @@ def xoaphantu(listt, i):
 
 
 lst = []
-while True:
-    print("""1. Khởi tạo list
+print("""1. Khởi tạo list
 2. Xóa phần tử k
 3. Kiểm tra list đối xứng
 4. Thoát chương trình""")
+while True:
     try:
         chucnang = int(input("Chọn chức năng muốn sử dụng: "))
         if chucnang == 1:

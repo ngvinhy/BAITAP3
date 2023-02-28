@@ -8,13 +8,13 @@ def ktrasonguyento(n):
 
 
 lst = []
-while True:
-    print("""1. Thêm phần tử vào list
+print("""1. Thêm phần tử vào list
 2. Kiểm tra k xuất hiện bao nhiêu lần trong list
 3. Tính tổng các số nguyên tố trong list
 4. Sắp xếp
 5. Xóa list
 6. Thoát chương trình""")
+while True:
     try:
         chucnang = int(input("Chọn chức năng muốn sử dụng: "))
         if chucnang == 1:
